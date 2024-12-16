@@ -1,0 +1,9 @@
+crewai
+crewai[tools]
+langchain
+langchain_community
+langchain_openai 
+streamlit
+PyPDF2
+google-generativeai==0.3.1
+scrapegraphai

@@ -1,0 +1,160 @@
+```latex
+\documentclass{article}
+\usepackage{geometry}
+\geometry{a4paper, margin=1in}
+\usepackage{array}
+\usepackage{longtable}
+
+\begin{document}
+
+\section*{7-Day Comprehensive Diet Plan for IBD Management}
+
+\begin{longtable}{|p{2cm}|p{4cm}|p{8cm}|p{2cm}|}
+\hline
+\textbf{Day} & \textbf{Time} & \textbf{Menu} & \textbf{Quantity} \\
+\hline
+\endfirsthead
+\hline
+\textbf{Day} & \textbf{Time} & \textbf{Menu} & \textbf{Quantity} \\
+\hline
+\endhead
+\hline
+\endfoot
+
+\hline
+\endlastfoot
+
+% Day 1
+\textbf{Day 1} & Early Morning & Tender coconut water & 1 glass \\
+\cline{2-4}
+& Breakfast & Idiyappam, Egg white curry & 2 nos, 2 nos \\
+\cline{2-4}
+& Mid-morning & Lassi & 1 glass \\
+\cline{2-4}
+& Lunch & Parboiled rice, Anchovies curry (less seasoning), Snake gourd thoran & 2 cups, 1 serv, ½ cup \\
+\cline{2-4}
+& Tea Time & Chicken soup & 1 cup \\
+\cline{2-4}
+& Dinner & Wheat dosa, Dal curry, Carrot thoran & 2-3 nos, 1 cup, ½ cup \\
+\cline{2-4}
+& Bed Time & Soaked peeled almonds & 4 nos \\
+\hline
+
+% Day 2
+\textbf{Day 2} & Early Morning & Tender coconut water & 1 glass \\
+\cline{2-4}
+& Breakfast & Ragi porridge (without sugar), Steamed banana & 1 bowl, 1 small \\
+\cline{2-4}
+& Mid-morning & Buttermilk & 1 glass \\
+\cline{2-4}
+& Lunch & Parboiled rice, Curd curry, Beetroot thoran & 2 cups, 1 serv, ½ cup \\
+\cline{2-4}
+& Tea Time & Vegetable soup & 1 cup \\
+\cline{2-4}
+& Dinner & Rice gruel, Pumpkin curry, Cabbage stir fry & 2 cups, 1 cup, ½ cup \\
+\cline{2-4}
+& Bed Time & Soaked peeled almonds & 4 nos \\
+\hline
+
+% Day 3
+\textbf{Day 3} & Early Morning & Tender coconut water & 1 glass \\
+\cline{2-4}
+& Breakfast & Oats porridge (without sugar), Apple (peeled and cooked) & 1 bowl, 1 small \\
+\cline{2-4}
+& Mid-morning & Green tea & 1 cup \\
+\cline{2-4}
+& Lunch & Parboiled rice, Vegetable curry (less seasoning), Spinach thoran & 2 cups, 1 serv, ½ cup \\
+\cline{2-4}
+& Tea Time & Tomato soup & 1 cup \\
+\cline{2-4}
+& Dinner & Wheat chapati, Paneer curry, Beans stir fry & 2 nos, 1 cup, ½ cup \\
+\cline{2-4}
+& Bed Time & Soaked peeled almonds & 4 nos \\
+\hline
+
+% Day 4
+\textbf{Day 4} & Early Morning & Tender coconut water & 1 glass \\
+\cline{2-4}
+& Breakfast & Semolina idli, Sambar (less seasoning) & 2 nos, 1 cup \\
+\cline{2-4}
+& Mid-morning & Lassi & 1 glass \\
+\cline{2-4}
+& Lunch & Parboiled rice, Lentil curry, Carrot and peas thoran & 2 cups, 1 serv, ½ cup \\
+\cline{2-4}
+& Tea Time & Vegetable clear soup & 1 cup \\
+\cline{2-4}
+& Dinner & Wheat dosa, Mixed vegetable curry, Pumpkin thoran & 2-3 nos, 1 cup, ½ cup \\
+\cline{2-4}
+& Bed Time & Soaked peeled almonds & 4 nos \\
+\hline
+
+% Day 5
+\textbf{Day 5} & Early Morning & Tender coconut water & 1 glass \\
+\cline{2-4}
+& Breakfast & Rice porridge (without sugar), Steamed apple & 1 bowl, 1 small \\
+\cline{2-4}
+& Mid-morning & Buttermilk & 1 glass \\
+\cline{2-4}
+& Lunch & Parboiled rice, Yogurt curry, Green beans thoran & 2 cups, 1 serv, ½ cup \\
+\cline{2-4}
+& Tea Time & Spinach soup & 1 cup \\
+\cline{2-4}
+& Dinner & Wheat chapati, Mixed lentil curry, Beetroot thoran & 2 nos, 1 cup, ½ cup \\
+\cline{2-4}
+& Bed Time & Soaked peeled almonds & 4 nos \\
+\hline
+
+% Day 6
+\textbf{Day 6} & Early Morning & Tender coconut water & 1 glass \\
+\cline{2-4}
+& Breakfast & Ragi porridge (without sugar), Boiled egg white & 1 bowl, 2 nos \\
+\cline{2-4}
+& Mid-morning & Green tea & 1 cup \\
+\cline{2-4}
+& Lunch & Parboiled rice, Spinach curry, Cabbage thoran & 2 cups, 1 serv, ½ cup \\
+\cline{2-4}
+& Tea Time & Tomato soup & 1 cup \\
+\cline{2-4}
+& Dinner & Wheat chapati, Dal curry, Carrot thoran & 2 nos, 1 cup, ½ cup \\
+\cline{2-4}
+& Bed Time & Soaked peeled almonds & 4 nos \\
+\hline
+
+% Day 7
+\textbf{Day 7} & Early Morning & Tender coconut water & 1 glass \\
+\cline{2-4}
+& Breakfast & Idiyappam, Egg white curry & 2 nos, 2 nos \\
+\cline{2-4}
+& Mid-morning & Lassi & 1 glass \\
+\cline{2-4}
+& Lunch & Parboiled rice, Anchovies curry (less seasoning), Snake gourd thoran & 2 cups, 1 serv, ½ cup \\
+\cline{2-4}
+& Tea Time & Chicken soup & 1 cup \\
+\cline{2-4}
+& Dinner & Wheat dosa, Dal curry, Carrot thoran & 2-3 nos, 1 cup, ½ cup \\
+\cline{2-4}
+& Bed Time & Soaked peeled almonds & 4 nos \\
+\hline
+
+\end{longtable}
+
+\section*{Key Recommendations}
+\begin{itemize}
+    \item Keep a food diary to track foods eaten and note when symptoms worsen to identify problematic foods.
+    \item Eat small, frequent meals and avoid skipping meals.
+    \item Avoid fatty, fried foods, spicy foods, dairy (except curd), and high-fiber foods.
+    \item Stay hydrated and focus on low-fiber, easily digestible foods.
+    \item Include probiotics such as curd to maintain gut health.
+    \item Avoid gluten-containing foods.
+    \item Follow a high-calorie, high-protein diet to prevent malnutrition.
+    \item Avoid unhealthy fats; opt for healthy fats like coconut oil, olive oil, and small fish.
+\end{itemize}
+
+\section*{Monitoring and Adjustments}
+\begin{itemize}
+    \item Regularly monitor symptoms and adjust the diet based on tolerance and response.
+    \item Consult with a healthcare provider for ongoing support and adjustments.
+\end{itemize}
+
+\end{document}
+```
